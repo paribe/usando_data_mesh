@@ -1,0 +1,11 @@
+/.venv
+/aplicacao
+/app.py
+/image.png
+/movimentacao.ipynb
+/poetry.lock
+/pyproject.toml
+/spark-3.4.0-bin-hadoop3.tgz
+/src
+/tests
+/usando_data_mesh

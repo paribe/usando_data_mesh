@@ -1,6 +1,8 @@
 Para criar um pipeline de dados usando uma arquitetura de dados Mesh combinada com a arquitetura em camadas (Medalhão), você pode estruturar as camadas Bronze, Prata e Ouro no Spark e usar o MinIO para armazenar os dados. O objetivo da arquitetura Mesh é descentralizar a propriedade e o consumo dos dados, desacoplando as camadas e permitindo que os domínios gerem e mantenham seus próprios dados, enquanto disponibilizam dados na camada ouro para consumo por outros domínios ou sistemas.
 
 # Estrutura Geral da Solução
+
+
 Camada Bronze: Armazena dados brutos e não processados.
 Camada Prata: Contém dados limpos e transformados (processados).
 Camada Ouro: Dados prontos para análise, modelo ou consumo em dashboards, etc.
@@ -205,5 +207,5 @@ Essa estrutura lhe dará uma API para acessar os dados da camada ouro e fornecer
 
 # Minio imagem abaixo
 
-![alt text](image.png)
+![alt text](image1.png)
 
